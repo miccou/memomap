@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Adding a new component
+
+ng generate component components/map -c OnPush --standalone --style none --dry-run
+
+OR for UI ONLY component
+
+ng generate component ui-kit/map -c OnPush --standalone --style none --dry-run
